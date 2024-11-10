@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Top heading*/
+
+h1{
+    font-size: 2rem;
+    height: 4rem;
+    background-color: #c38edc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Rock paper & secissor imges*/
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/*set img properly*/
+    border-radius: 50%;
+}
+.choice{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choice:hover{
+    cursor: pointer;/*change curser style*/
+    border-radius: 50%;
+    background-color: #343235;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;/*gap between images*/
+    margin: 2rem;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #c38edc;
+    margin-bottom: 3rem;
+}
+
+/*User & computer score*/
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    gap: 4rem;
+}
+#user-score,#comp-score{
+    font-size: 2rem;
+    font-weight: 100;
+    color: #343235;
+}
+.players{
+    font-weight: 750;
+    color: #9d27d4;
+}
+
+/*Final message*/
+
+#msg{
+    background-color: #c38edc;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
